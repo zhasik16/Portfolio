@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="br.css">
+	<link rel="shortcut icon" href="icon.png" type="image/x-icon">
+	<title>My Portfolio</title>
+</head>
+<body>
+	<header class="header">
+		<a href="#home" class="logo">Zhassulan <span>Imash</span></a>
+
+		<i class="fa-solid fa-bars" id="menu-icon"></i>
+
+		<nav class="navbar">
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#services">Services</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</header>
+
+	<section class="home" id="home">
+		<div class="home-content">
+			<h1>Hi, It's <span>Zhassulan</span></h1>
+			<h3>I'm a <span>Frontend Developer</span></h3>
+			<p>Professional coder</p>
+
+			<div class="social-icons">
+				<a href="https://github.com/zhasik16"><i class="fa-brands fa-github"></i></a>
+				<a href="https://t.me/chesskasl">
+					<i class="fa-brands fa-telegram"></i>
+				</a>
+				<a href="https://www.instagram.com/chesskasl/"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+
+			<div class="btn-group">
+				<a href="https://t.me/chesskasl" class="btn">Hire</a>
+				<a href="#contact" class="btn">Contact</a>
+			</div>
+		</div>
+
+		<div class="home-img">
+			<img src="ava.jpg" alt="">
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="ava.jpg" alt="">
+		</div>
+
+		<div class="about-content">
+			<h2>About <span>Me</span></h2>
+			<p>My name is Zhassulan and i'm from Kazakhstan.In my free time i love doing some coding things and also create small projects.If you want you know more about me just press this button.Thanks!
+			Mezun 2025 (Taldykorgan BIL).Ask me question wherever or whenever u want.Also if u wanna colloborate and work together just send me messages.Piece ~!$</p>
+			<a href="#contact" class="btn">Contact me to learn about me</a>
+		</div>
+	</section>
+
+	<section class="services" id="services">
+		<h2 class="heading">Services</h2>
+
+		<div class="services-container">
+			<div class="service-box">
+				<div class="service-info">
+					<i class="fa-solid fa-robot"></i>
+					<h4>Telegram Bot Development</h4>
+					<p>I will create Telegram bots based on aiogram library(python programming language)</p>
+				</div>
+			</div>
+
+			<div class="service-box">
+				<div class="service-info">
+					<i class="fa-solid fa-terminal"></i>
+					<h4>Frontend development</h4>
+					<p>I will create good websites based on your descriptions with HTML, CSS and Javascript programming languages</p>
+				</div>
+			</div>
+
+			<div class="service-box">
+				<div class="service-info">
+					<i class="fa-solid fa-database"></i>
+					<h4>Database development</h4>
+					<p>I will do such work but with SQL.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<h2 class="heading">Contact <span>Me</span></h2>
+
+		<form action="https://api.web3forms.com/submit" method="POST">
+			<div class="input-group">
+				<div class="input-box">
+					<input type="hidden" name="access_key" value="c96888f4-1246-41b5-83bd-038967cc6779">
+					<input type="text" name="name" placeholder="Write me your name" id="name" autocomplete="off" required>
+					<input type="email" name="email" placeholder="Write me your email to contact you" id="email" autocomplete="off" required>
+				</div>
+				<div class="input-box">
+					<input type="number" name="number" placeholder="Write me your phone number" id="phone" autocomplete="off" required>
+				</div>
+			</div>
+
+			<div class="input-group-2">
+				<textarea name="message" id="" cols="30" rows="10" placeholder="Your comment please" id="message" autocomplete="off" required></textarea>
+				<button type="submit" class="btn">Send</button>
+			</div>
+		</form>
+	</section>
+
+	<footer class="footer">
+		<div class="social-icons">
+		<a href="https://github.com/zhasik16"><i class="fa-brands fa-github"></i></a>
+		<a href="https://t.me/chesskasl">
+		<i class="fa-brands fa-telegram"></i></a>
+		<a href="https://www.instagram.com/chesskasl/"><i class="fa-brands fa-instagram"></i></a>
+		</div>
+		<ul class="list">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+
+		<p class="copyright">
+			&copy Imash Zhassulan | All Right 
+		</p>
+	</footer>
+
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="tr.js"></script>
+</body>
+
+</html>
